@@ -10,7 +10,6 @@ public class A {
 		int field1;
 		static int field2;
 		
-		
 		B(){
 			System.out.println("B객체 생성");
 		}
@@ -24,5 +23,25 @@ public class A {
 		}
 	}
 	
+	static class C {
+		int field1;
+		static int field2;
+		C(){
+			System.out.println("C객체 생성");
+		}
+		
+		void method1() {
+			System.out.println("C 메소드 1실행");
+		}
+		static void method2() {
+			System.out.println("C 메소드2 실행");
+		}
+	}
 	
+	class D {
+		
+		D() {
+			System.out.println("D 객체 생성");
+		}
+	}
 }
