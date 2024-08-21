@@ -1,6 +1,6 @@
 package chap09;
 
-public class Perent {
+public class Person {
 
 	//필드
 	//생성자
