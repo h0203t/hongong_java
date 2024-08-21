@@ -7,7 +7,11 @@ public class AnonyExam {
 		 
 		 anony.field.start();
 		 anony.method1();
-//		 anony.method2(Anony460 anony);
+		 anony.method2(new Worker() {
+			 @Override
+			void start() {
+				 System.out.println("테스트합니다.");
+			}
+		 });
 	}
-
 }

@@ -10,7 +10,6 @@ public class Anony460 {
 	
 	void method1() {
 		Worker localVar = new Worker() {
-			
 			@Override
 			void start() {
 				System.out.println("개발을 합니다.");
