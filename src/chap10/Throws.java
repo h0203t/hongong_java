@@ -21,7 +21,7 @@ public class Throws {
 			} catch (ArrayIndexOutOfBoundsException e) {
 				System.out.println("인덱스를 초과했음");
 			} catch (NumberFormatException e) {
-				System.out.println("숫자로 변환 불가");
+				System.out.println("숫자로 변환 불가"); 
 			} finally {
 				System.out.println(value);
 			}
